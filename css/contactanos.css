@@ -1,0 +1,81 @@
+:root {
+    --color-principal: #F26D7D;
+    --color-primary-hover: #d64246;
+    --color-verde: #04A75B;
+    --color-negro: #444A47;
+    --color-fondo: #EEECE6;
+    --color-footer: #333333;
+}
+
+h2 {
+    color: #04A75B;
+}
+
+/* Contactanos */
+input {
+    padding-left: 15px;
+    background-color: #fff;
+}
+
+.contact {
+    padding-top: 30px;
+    margin: 40px auto;
+    width: 600px;
+    height: 530px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: var(--color-fondo);
+    box-shadow: 0 8px 12px 0px var(--color-footer);
+}
+
+.datos1 {
+    width: 85%;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.datos2 {
+    width: 85%;
+    height: 70px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.espa {
+    margin-top: 14px;
+    font-size: 1.3em;
+}
+
+.container-form {
+    padding: 15px;
+    margin-left: 15px;
+    text-decoration: solid;
+}
+
+.ClasesD {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}
+
+.boton {
+    align-items: center;
+    background-color: var(--color-principal);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    margin: 20px 0px;
+    padding: 5px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    transition: .5s ease all;
+}
+
+.botone:hover {
+    background-color: var(--color-primary-hover);
+}
